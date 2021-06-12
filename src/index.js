@@ -13,8 +13,8 @@ var numbers = [3, 56, 2, 48, 5];
 //FindIndex - find the index of the first item that matches.
 
 {
-  emoji.map(function (x) {
-    let hundred = x.meaning.substr(0, 100);
-    console.log(hundred);
+  let hundred = emoji.map(function (x) {
+    return x.meaning.substr(0, 100);
   });
+  console.log(hundred);
 }
